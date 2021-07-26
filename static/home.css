@@ -1,0 +1,374 @@
+  
+  .main {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .main2
+  {
+    text-align: left;
+    width: 150px;
+  }
+
+    
+  .homemain1 {
+    flex: 1;
+    color:black;
+    font-family: 'NeoDunggeunmo';
+    font-weight: 100;
+  
+  }
+.news-flex-box {
+  flex: 0 0 auto;
+  margin-bottom: 2rem;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.news-box {
+  flex: 1;
+}
+
+  .update-box {
+    flex: 1;
+  }
+
+  .photo {
+    color: white;
+    background-color: rgb(248, 156, 174);
+    margin-right: 5px;
+   
+  }
+  
+  .menu {
+    color: white;
+    background-color: rgb(184, 215, 240);
+    margin-right: 5px;
+  
+  }
+
+  
+
+  .profile-container {
+    flex: 0.4;
+    margin-right: 1.5rem;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-container {
+    flex: 1;
+  
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .content-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-title-name {
+    flex: 1;
+  }
+  
+  .content-title-url {
+    flex: 1;
+    font-size: 0.5rem; /* 적용한 폰트 특성 상 사이즈가 커서 font-size 조정 */
+    text-align: end; /* 텍스트 우측 정렬 */
+  }
+  .box {
+    border: 1px solid rgb(230, 228, 228);
+  }
+
+  .box-title {
+    font-family: "NeoDunggeunmo";
+    border-bottom: 1px solid rgb(168, 168, 168);
+    color: #3b87ab;
+  }
+  
+  .content-box {
+
+  position: relative;
+
+}
+  
+  /* 메뉴 버튼 */
+  .menu-container {
+    flex: 0.15;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-container > a {
+    padding: 6px;
+    margin: 6px 0;
+    background-color: #3b87ab;
+    border-bottom-right-radius: 6px; /* 우측 하단 border-radius 적용 */
+    border-top-right-radius: 6px; /* 우측 상단 border-radius 적용 */
+    border: 1px solid #617dc1;
+    color: white;
+    text-decoration: none;
+    font-family: "NeoDunggeunmo";
+    font-size: 0.85rem;
+  }
+  
+  .menu-container > a:hover {
+    background-color: #617dc1;
+
+  }
+  
+  .news-row {
+    display: flex;
+    font-size: 0.85rem;
+    margin: 6px;
+  }
+  
+  .news-category {
+    padding: 0 6px;
+    margin-right: 6px;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  .category-pic {
+    background-color: #f15f5f;
+  }
+  
+  .category-post {
+    background-color: #617dc1;
+  }
+  
+  .menu-row {
+    display: flex;
+    border-bottom: 1px dashed grey;
+    margin: 3px 0;
+  }
+  
+  .menu-item {
+    flex: 1;
+  }
+
+  .menu-num {
+    font-family: "NeoDunggeunmo";
+    padding-left: 6px;
+    color: #003399;
+  }
+
+ 
+  .miniroom-gif-box {
+    background-color: white;
+    border: 1px solid #808080;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .miniroom-gif-box > img {
+    width: 100%;
+  }
+
+  .icon {
+    font-size: 1.4rem;
+    color: blue;
+    margin: 1rem;
+    transition: 800ms ease all;
+  }
+
+  .button {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .button-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button>button {
+    width:40%; 
+    padding:16px;
+    color:white; 
+    background-color: white;
+    border:0px;
+    transition: 500ms ease all; 
+  }
+
+  .button>button:hover {
+    color:white; 
+    background-color: #adadad ;transition: 500ms ease all; border-radius: 4px;}
+
+
+
+
+.date-box {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  height: 3rem;
+
+  border: 1px solid #e7e7e7;
+
+  display: flex;
+  align-items: center;
+}
+
+.today {
+  flex: 0 0 2rem;
+  margin: 0 1rem;
+  text-align: center;
+  color: #3b87ab;
+  font-weight: 700;
+}
+
+.date-list {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+}
+
+.date {
+  flex: 0 0 1.5rem;
+  color: #707070;
+  cursor: pointer;
+  text-align: center;
+}
+
+.scroll-box {
+  position: absolute;
+  margin-top: 4rem;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.color-blue {
+  color: blue;
+}
+
+
+.diary-date {
+  font-size: 0.8rem;
+  color: #3b87ab;
+  margin-bottom: 1rem;
+}
+
+.diary-text {
+  text-align: center;
+ 
+}
+
+
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.diary-button {
+  margin-top: 1rem;
+  background: #fff;
+  color: #fff;
+  padding: 1rem;
+  cursor: pointer;
+
+  transition: 800ms ease all;
+  border: none;
+}
+
+.diary-button:hover {
+  background: #6ac4e7;
+  color: #fff;
+}
+
+.fas {
+  margin-right: 0.5rem;
+  font-size: 0.5rem;
+}
+
+
+  .date-content {
+    border: solid 1px;
+    border-color: rgb(202, 200, 200);
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+    
+    
+  }
+
+.date-left {
+  flex: 0 0 2rem;
+  margin: 0 1rem;
+  text-align: center;
+  color: #3b87ab;
+  font-weight: 700;
+}
+
+.date-right {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  line-height: 10px;
+  
+}
+
+.date {
+  line-height: 10px;
+  flex: 0 0 1.5rem;
+  color: #707070;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+.diary-date {
+  font-size: 0.8rem;
+  color: #3b87ab;
+  margin-bottom: 1rem;
+}
+
+.diary-text {
+  text-align: center;
+}
+
+.diary-subject {
+  color: aquamarine ;
+  margin-top: 15px;
+
+}
+
+.diary-content {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 93%;
+  height: 90%;
+  
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 9px;
+}
+
+
+
+ 
+
+.color-red {
+	color: red;
+}
+

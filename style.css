@@ -1,0 +1,43 @@
+h1 {
+    color : blue ;
+}
+
+h2 {
+    color : purple; 
+}
+
+
+div {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-color: black;
+    color: black;
+    font-family: 'Jua', sans-serif; 
+    border-style: dotted;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 1px; 
+  }
+
+.jua {
+    font-family: 'Jua', sans-serif; 
+    font-size: 23px;
+
+  }
+
+.juap 
+{
+    font-weight: 250;
+    font-family: 'Jua', sans-serif; 
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.blackhans { font-family: 'Black Han Sans', sans-serif;
+    font-weight: 300;}
+
+p { font-size: 17px;}
+
+a { margin-left: 10px;}
